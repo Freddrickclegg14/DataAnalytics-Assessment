@@ -36,10 +36,9 @@ Challenges: Putting into consideration NULL values
 
 
 Question 4: Customer Lifetime Value (CLV) Estimation
-Q4 looks at how much customer we are losing.
+Q4 looks at Customer Lifetime value.
 
 The benefit of this Analysis
-	Good Indicator of Churn Rate/Market Availability. 
-
- Approach: Chose to use a CTE in this case, as the MAX function, could cause the query performance to reduce especially in large data and with either a subquery. 	
+	How much value Customers are getting from our services per month per transaction. 
+	
 Challenges: Putting into consideration NULL values
